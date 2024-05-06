@@ -1,0 +1,63 @@
+    *, *::before, *::after {
+        box-sizing: border-box;
+    }
+
+    :root {
+      --color-background: #000119;
+      --stroke-width: calc(1em / 16);
+      --font-size: 30vmin;
+      --font-weight: 700;
+      --letter-spacing: calc(1em / 8);
+    }
+
+    .first {
+      background-color: black;
+    }
+
+    .text {
+      color: #fff;
+    }
+
+    .image {
+      border-radius: 50%;
+    }
+
+    h1 {
+    background-clip: text;
+    background-image: linear-gradient(to right, #09f1b8, #00a2ff, #ff00d2, #fed90f);
+    color: var(--color-background);
+    font-size: var(--font-size);
+    font-weight: var(--font-weight);
+    letter-spacing: var(--letter-spacing);
+    padding: calc(--stroke-width / 2);
+    -webkit-text-stroke-color: transparent;
+    -webkit-text-stroke-width: var(--stroke-width);
+  } 
+
+  h2 {
+    background-clip: text;
+    background-image: linear-gradient(to right, #09f1b8, #00a2ff, #ff00d2, #fed90f);
+    color: var(--color-background);
+    font-size: 45px;
+    font-weight: var(--font-weight);
+    letter-spacing: var(--letter-spacing);
+    padding: calc(--stroke-width / 2);
+    -webkit-text-stroke-color: transparent;
+    -webkit-text-stroke-width: var(--stroke-width);
+  }
+
+  button {
+    padding: .5em 2.1em;
+    border: none;
+    font-size: 18px;
+    background-color: blueviolet;
+    transition: padding 0.18s;
+  }
+
+  button:hover {
+    padding: .8em 2.3em;
+  }
+
+  a {
+    text-decoration: none;
+  }
