@@ -2,6 +2,10 @@
         box-sizing: border-box;
     }
 
+    body {
+      overflow-x: hidden;
+    }
+
     :root {
       --color-background: #000119;
       --stroke-width: calc(1em / 16);
